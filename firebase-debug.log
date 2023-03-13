@@ -1,0 +1,86 @@
+[debug] [2023-03-13T21:48:03.948Z] ----------------------------------------------------------------------
+[debug] [2023-03-13T21:48:03.952Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-03-13T21:48:03.953Z] CLI Version:   11.24.1
+[debug] [2023-03-13T21:48:03.953Z] Platform:      win32
+[debug] [2023-03-13T21:48:03.953Z] Node Version:  v18.14.0
+[debug] [2023-03-13T21:48:03.955Z] Time:          Mon Mar 13 2023 22:48:03 GMT+0100 (West Africa Standard Time)
+[debug] [2023-03-13T21:48:03.956Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-13T21:48:03.968Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-13T21:48:03.968Z] > authorizing via signed-in user (chukwukauzoma2016@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\HP\react-spotify
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-03-13T21:49:24.484Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-03-13T21:49:25.919Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-03-13T21:49:25.920Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project bee-music-2a8cf (Bee music) 
+[info] 
+=== Database Setup
+[info] i  database: ensuring required API firebasedatabase.googleapis.com is enabled... 
+[debug] [2023-03-13T21:49:27.769Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/bee-music-2a8cf/services/firebasedatabase.googleapis.com [none]
+[debug] [2023-03-13T21:49:27.769Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/bee-music-2a8cf/services/firebasedatabase.googleapis.com x-goog-quota-user=projects/bee-music-2a8cf
+[debug] [2023-03-13T21:49:29.581Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/bee-music-2a8cf/services/firebasedatabase.googleapis.com 200
+[debug] [2023-03-13T21:49:29.581Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/bee-music-2a8cf/services/firebasedatabase.googleapis.com [omitted]
+[warn] !  database: missing required API firebasedatabase.googleapis.com. Enabling now... 
+[debug] [2023-03-13T21:49:29.583Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/bee-music-2a8cf/services/firebasedatabase.googleapis.com:enable [none]
+[debug] [2023-03-13T21:49:29.584Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/bee-music-2a8cf/services/firebasedatabase.googleapis.com:enable x-goog-quota-user=projects/bee-music-2a8cf
+[debug] [2023-03-13T21:49:31.585Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/bee-music-2a8cf/services/firebasedatabase.googleapis.com:enable 200
+[debug] [2023-03-13T21:49:31.585Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/bee-music-2a8cf/services/firebasedatabase.googleapis.com:enable [omitted]
+[debug] [2023-03-13T21:49:41.588Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/bee-music-2a8cf/services/firebasedatabase.googleapis.com [none]
+[debug] [2023-03-13T21:49:41.588Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/bee-music-2a8cf/services/firebasedatabase.googleapis.com x-goog-quota-user=projects/bee-music-2a8cf
+[debug] [2023-03-13T21:49:42.822Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/bee-music-2a8cf/services/firebasedatabase.googleapis.com 200
+[debug] [2023-03-13T21:49:42.823Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/bee-music-2a8cf/services/firebasedatabase.googleapis.com [omitted]
+[info] +  database: required API firebasedatabase.googleapis.com is enabled 
+[info] 
+[debug] [2023-03-13T21:49:42.831Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bee-music-2a8cf [none]
+[debug] [2023-03-13T21:49:43.446Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bee-music-2a8cf 200
+[debug] [2023-03-13T21:49:43.446Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bee-music-2a8cf {"projectId":"bee-music-2a8cf","projectNumber":"205912710658","displayName":"Bee music","name":"projects/bee-music-2a8cf","resources":{"hostingSite":"bee-music-2a8cf"},"state":"ACTIVE","etag":"1_0e17d3e0-5552-4dc0-ab38-88fc6f00bfb4"}
+[debug] [2023-03-13T21:50:00.579Z] >>> [apiv2][query] POST https://firebasedatabase.googleapis.com/v1beta/projects/bee-music-2a8cf/locations/us-central1/instances databaseId=bee-music-2a8cf-default-rtdb&validateOnly=true
+[debug] [2023-03-13T21:50:00.579Z] >>> [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/bee-music-2a8cf/locations/us-central1/instances {"type":"default_database"}
+[debug] [2023-03-13T21:50:02.511Z] <<< [apiv2][status] POST https://firebasedatabase.googleapis.com/v1beta/projects/bee-music-2a8cf/locations/us-central1/instances 200
+[debug] [2023-03-13T21:50:02.511Z] <<< [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/bee-music-2a8cf/locations/us-central1/instances {"name":"projects/205912710658/locations/us-central1/instances/bee-music-2a8cf-default-rtdb","project":"projects/205912710658","databaseUrl":"https://bee-music-2a8cf-default-rtdb.firebaseio.com","type":"DEFAULT_DATABASE","state":"ACTIVE"}
+[debug] [2023-03-13T21:50:02.514Z] >>> [apiv2][query] POST https://firebasedatabase.googleapis.com/v1beta/projects/bee-music-2a8cf/locations/us-central1/instances databaseId=bee-music-2a8cf-default-rtdb
+[debug] [2023-03-13T21:50:02.514Z] >>> [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/bee-music-2a8cf/locations/us-central1/instances {"type":"default_database"}
+[debug] [2023-03-13T21:50:04.386Z] <<< [apiv2][status] POST https://firebasedatabase.googleapis.com/v1beta/projects/bee-music-2a8cf/locations/us-central1/instances 200
+[debug] [2023-03-13T21:50:04.387Z] <<< [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/bee-music-2a8cf/locations/us-central1/instances {"name":"projects/205912710658/locations/us-central1/instances/bee-music-2a8cf-default-rtdb","project":"projects/205912710658","databaseUrl":"https://bee-music-2a8cf-default-rtdb.firebaseio.com","type":"DEFAULT_DATABASE","state":"ACTIVE"}
+[info] 
+[info] Firebase Realtime Database Security Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[debug] [2023-03-13T22:06:09.033Z] ----------------------------------------------------------------------
+[debug] [2023-03-13T22:06:09.036Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-03-13T22:06:09.037Z] CLI Version:   11.24.1
+[debug] [2023-03-13T22:06:09.037Z] Platform:      win32
+[debug] [2023-03-13T22:06:09.037Z] Node Version:  v18.14.0
+[debug] [2023-03-13T22:06:09.039Z] Time:          Mon Mar 13 2023 23:06:09 GMT+0100 (West Africa Standard Time)
+[debug] [2023-03-13T22:06:09.040Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-13T22:06:09.075Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-13T22:06:09.076Z] > authorizing via signed-in user (chukwukauzoma2016@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\HP\react-spotify
+
