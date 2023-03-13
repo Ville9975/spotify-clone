@@ -1,0 +1,205 @@
+.leftbar{
+  z-index: 1;
+    width: 300px;
+    height: 110vh;
+    background-color: white;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.macbook{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+    padding-top: 20px;
+}
+.macbook-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 55px;
+  }
+  
+  .dot {
+    width: 50px;
+    height: 15px;
+    border-radius: 60%;
+    margin: 0 5px;
+  }
+  
+  .dot-1 {
+    background-color: red;
+  }
+  
+  .dot-2 {
+    background-color: orange;
+  }
+  
+  .dot-3 {
+    background-color: green;
+  }
+
+  .logocollect{
+    padding-right: 25px;
+  }
+  .beemusic{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+  }
+  .beeicon{
+    color: orange;
+    width: 100%;
+    font-size: 40px;
+  
+  }
+  .music{
+    color: black;
+    font-size: 20px;
+    margin-right: 135px;
+  }
+  .bee{
+    color: orange;
+    font-size: 20px;
+
+  }
+
+  .barcontent ul{
+    width: 100%;
+    border: none;
+  }
+
+  .barcontent ul li{
+    list-style: none;
+    margin: 22px;
+    margin-left: 0;
+    position: relative;
+  }
+  .barcontent ul li a:hover, .barcontent ul li a.active{
+    width: 80%;
+    height: 40px;
+    background-color: black;
+    color: rgba(243, 234, 234, 0.692);
+    transition: 0.9s;
+    border-radius: 5px;
+    box-shadow: 4px 5px 4px;
+
+}
+
+  .barcontent ul li a{
+    text-decoration: none;
+    color:  rgba(0, 0, 0, 0.671);
+    font-weight: 1px;
+    display: flex;
+    align-items: center;
+  }
+
+  .barcontent ul li a i{
+    font-size: 18px;
+    margin-right: 16px;
+  }
+  .barcontent ul li a span{
+    font-size: 14px;
+  }
+
+  .discoveritem ul li {
+    list-style: none;
+    margin: 22px;
+    margin-left: 0;
+    position: relative;
+  }
+  .discoveritem ul li a:hover, .discoveritem ul li a.active{
+    width: 80%;
+    height: 40px;
+    background-color: black;
+    color: rgba(243, 234, 234, 0.692);
+    transition: 0.9s;
+    border-radius: 5px;
+    box-shadow: 4px 5px 4px;
+
+}
+  .discoveritem ul li a{
+    text-decoration: none;
+    color:  rgba(0, 0, 0, 0.671);
+    font-weight: 1px;
+    display: flex;
+    align-items: center;
+  }
+  .discoveritem ul li a i{
+    font-size: 18px;
+    margin-right: 16px;
+    
+  }
+  .discoveritem ul li a span{
+    font-size: 14px;
+  }
+  .head{
+    color: rgba(0, 0, 0, 0.664);
+    font-weight: 1px;
+    display: flex;
+    margin-left: 40px;
+    font-size: 12px;
+  }
+
+  .collect ul li{
+    list-style: none;
+    margin: 22px;
+    margin-left: 0;
+    position: relative;
+  }
+
+  .collect ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.671);
+    font-weight: 1px;
+    display: flex;
+    align-items: center;
+  }
+  .collect ul li a:hover, .collect ul li a.active{
+    width: 80%;
+    height: 40px;
+    background-color: black;
+    color: rgba(243, 234, 234, 0.692);
+    transition: 0.9s;
+    border-radius: 5px;
+    box-shadow: 4px 5px 4px;
+
+}
+
+  .collect ul li a i {
+    font-size: 18px;
+    margin-right: 16px;
+  }
+  .collect ul li a span{
+    font-size: 14px;
+  }
+  .head1{
+    color: rgba(0, 0, 0, 0.664);
+    font-weight: lighter;
+    display: flex;
+    margin-left: 40px;
+    font-size: 12px;
+  }
+
+  .captari{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.253);
+    margin-top: 50px;
+    padding-top: 10px;
+  }
+   .captari img{
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 38px;
+   }
+
+   .captari p {
+    margin-right: 80px;
+   }
+    .caplogo {
+      padding-right: 20px;
+    }
